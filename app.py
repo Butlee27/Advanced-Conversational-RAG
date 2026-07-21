@@ -4,6 +4,7 @@ import streamlit as st
 
 from src.conversation import get_conversation
 from src.indexer import build_vector_database
+from src.loader import pdf_exists
 
 st.set_page_config(
     page_title="Advanced Conversational RAG",
@@ -15,7 +16,10 @@ st.title("📚 Advanced Conversational RAG")
 st.markdown("Ask questions about your uploaded PDF documents.")
 
 if "conversation" not in st.session_state:
-    st.session_state.conversation = get_conversation()
+    st.session_state.conversation = None
+
+if (st.session_state.conversation is None and pdf_exists()):
+    st.session_state.conversation=get_conversation()
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
