@@ -4,7 +4,7 @@ load_dotenv()
 
 GROQ_API_KEY=os.getenv("GROQ_API_KEY")
 
-llm_model="llama-3.3-70b-versatile"
+llm_model="openai/gpt-oss-20b"
 embedding_model="BAAI/bge-small-en-v1.5"
 cross_encoder_model="cross-encoder/ms-marco-MiniLM-L-6-v2"
 

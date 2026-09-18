@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "question": "What is ImageNet?",
+    "ground_truth": "ImageNet is a large-scale, structured image database that has played an important role in computer vision and deep learning. It is widely known for its use in the ImageNet Large Scale Visual Recognition Challenge (ILSVRC).",
+    "answer": "ImageNet is a large‑scale, structured image database that has become a cornerstone of computer vision and deep learning research. It is best known for its use in the annual ImageNet Large Scale Visual Recognition Challenge, where models are evaluated on tasks such as image classification and object detection.",
+    "contexts": [
+      {
+        "page_content": "Deep  Learning  /  III  AI  &  DS  /  VII  SEM  [EVEN]                                                                   66   UNIT  –  V  CASE  STUDY  AND  APPLICATIONS    Imagenet-  Detection-Audio  WaveNet-Natural  Language  Processing  Word2Vec    -  Joint  Detection  \nBioinformatics-\n \nFace\n \nRecognition-\n \nScene\n \nUnderstanding-\n \nGathering\n \nImage\n \nCaptions.\n  \n -------------------------------------------------------------------------------------------------------------  \nImagenet-  Detection   ImageNet  is  a  large-scale,  structured  image  database  that  has  played  a  pivotal  role  in  the  \nadvancement\n \nof\n \ncomputer\n \nvision\n \nand\n \ndeep\n \nlearning.\n \nIt\n \nis\n \nperhaps\n \nbest\n \nknown\n \nfor\n \nits\n \nuse\n \nin\n \nthe\n \nannual\n \nImageNet\n \nLarge\n \nScale\n \nVisual\n \nRecognition",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 65
+        }
+      },
+      {
+        "page_content": "sense\n \nof\n \nwhat\n \nit's\n \ningesting.\n \nSome\n \nof\n \nthese\n \ntasks\n \ninclude\n \nthe\n \nfollowing:\n \n●\n \nSpeech  recognition ,  also  called  speech-to-text,  is  the  task  of  reliably  converting  voice  \ndata\n \ninto\n \ntext\n \ndata.\n \nSpeech\n \nrecognition\n \nis\n \nrequired\n \nfor\n \nany\n \napplication\n \nthat\n \nfollows\n \nvoice\n \ncommands\n \nor\n \nanswers\n \nspoken\n \nquestions.\n \nWhat\n \nmakes\n \nspeech\n \nrecognition\n \nespecially\n \nchallenging\n \nis\n \nthe\n \nway\n \npeople\n \ntalk—quickly,\n \nslurring\n \nwords\n \ntogether,\n \nwith\n \nvarying\n \nemphasis\n \nand\n \nintonation,\n \nin\n \ndifferent\n \naccents,\n \nand\n \noften\n \nusing\n \nincorrect\n \ngrammar.\n \n●\n \nPart  of  speech  tagging ,  also  called  grammatical  tagging,  is  the  process  of  determining  \nthe\n \npart\n \nof\n \nspeech\n \nof\n \na\n \nparticular\n \nword\n \nor",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 67
+        }
+      },
+      {
+        "page_content": "Practice Questions for RAG System\n What is Artificial Intelligence?\n Explain Machine Learning.\n What are embeddings?\n How do vector databases work?\n What is chunking in RAG?\n Explain grounding.\n What are transformers?\n What is Retrieval-Augmented Generation?\n Why are embeddings important in semantic search?\n What is the purpose of overlap in chunking?\nConcept\nPurpose\nChunking\nSplit documents into smaller searchable parts\nOverlap\nPreserve continuity between chunks\nEmbeddings\nConvert text into semantic vectors\nVector DB\nStore and search vectors efficiently\nGrounding\nGenerate answers using retrieved context",
+        "metadata": {
+          "source": "data/pdfs\\rag_practice_document.pdf",
+          "page": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What was the purpose of the ImageNet Large Scale Visual Recognition Challenge (ILSVRC)?",
+    "ground_truth": "ILSVRC was a competition for evaluating algorithms on a subset of ImageNet. Its main tasks were image classification, which labels the primary object in an image, and object detection, which identifies and locates objects in an image.",
+    "answer": "The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) was created as a benchmark competition for researchers to evaluate and compare their algorithms on a large subset of the ImageNet database. Its primary purpose was to advance computer vision and deep learning by focusing on two key tasks: \n\n1. **Image classification** – correctly labeling the main object in an image.  \n2. **Object detection** – identifying and localizing all instances of objects within an image.",
+    "contexts": [
+      {
+        "page_content": "they\n \ndepict,\n \nspanning\n \nover\n \n20,000\n \ncategories.\n \nThe\n \nimages\n \nwere\n \nsourced\n \nfrom\n \nthe\n \ninternet\n \nand\n \nannotated\n \nusing\n \nAmazon\n \nMechanical\n \nTurk,\n \na\n \ncrowdsourcing\n \nplatform.\n  ImageNet  Large  Scale  Visual  Recognition  Challenge  (ILSVRC)  The  ILSVRC  began  in  2010  as  a  competition  for  researchers  to  test  their  algorithms  on  a  \nsubset\n \nof\n \nImageNet's\n \ndatabase.\n \nThe\n \nchallenge\n \nfocused\n \non\n \ntwo\n \nmain\n \ntasks:\n \nimage\n \nclassification,\n \nwhere\n \nthe\n \ngoal\n \nwas\n \nto\n \ncorrectly\n \nlabel\n \nthe\n \nprimary\n \nobject\n \nin\n \nan\n \nimage,\n \nand\n \nobject\n \ndetection,\n \nwhere\n \nthe\n \ngoal\n \nwas\n \nto\n \nidentify\n \nand\n \nlocate\n \nall\n \ninstances\n \nof\n \nobjects\n \nwithin\n \nan\n \nimage.",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 65
+        }
+      },
+      {
+        "page_content": "advancement\n \nof\n \ncomputer\n \nvision\n \nand\n \ndeep\n \nlearning.\n \nIt\n \nis\n \nperhaps\n \nbest\n \nknown\n \nfor\n \nits\n \nuse\n \nin\n \nthe\n \nannual\n \nImageNet\n \nLarge\n \nScale\n \nVisual\n \nRecognition\n \nChallenge\n \n(ILSVRC),\n \nwhich\n \nhas\n \nbeen\n \na\n \nbenchmark\n \nfor\n \nevaluating\n \nthe\n \nperformance\n \nof\n \nalgorithms\n \nin\n \nthe\n \nfield\n \nof\n \nimage\n \nclassification\n \nand\n \nobject\n \ndetection.\n  History  and  Development  of  ImageNet  ImageNet  was  created  by  Dr.  Fei-Fei  Li,  then  a  professor  at  Stanford  University,  along  \nwith\n \nher\n \ncolleagues\n \nand\n \nstudents.\n \nThe\n \nproject\n \nbegan\n \nin\n \n2006\n \nwith\n \nthe\n \ngoal\n \nof\n \nmapping\n \nout\n \nthe\n \nentire\n \nworld\n \nof\n \nobjects\n \nin\n \nimages\n \nin\n \na\n \nway\n \nthat\n \nmachines\n \ncould\n \nunderstand.\n \nThe\n \ndatabase\n \nwas\n \ndesigned\n \nto\n \nprovide",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 65
+        }
+      },
+      {
+        "page_content": "Deep  Learning  /  III  AI  &  DS  /  VII  SEM  [EVEN]                                                                   66   UNIT  –  V  CASE  STUDY  AND  APPLICATIONS    Imagenet-  Detection-Audio  WaveNet-Natural  Language  Processing  Word2Vec    -  Joint  Detection  \nBioinformatics-\n \nFace\n \nRecognition-\n \nScene\n \nUnderstanding-\n \nGathering\n \nImage\n \nCaptions.\n  \n -------------------------------------------------------------------------------------------------------------  \nImagenet-  Detection   ImageNet  is  a  large-scale,  structured  image  database  that  has  played  a  pivotal  role  in  the  \nadvancement\n \nof\n \ncomputer\n \nvision\n \nand\n \ndeep\n \nlearning.\n \nIt\n \nis\n \nperhaps\n \nbest\n \nknown\n \nfor\n \nits\n \nuse\n \nin\n \nthe\n \nannual\n \nImageNet\n \nLarge\n \nScale\n \nVisual\n \nRecognition",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 65
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "What impact did ImageNet have on deep learning and computer vision?",
+    "ground_truth": "ImageNet and ILSVRC helped drive the resurgence of neural networks, especially CNNs, in computer vision. Their large collection of annotated images enabled researchers to train deep neural networks effectively and contributed to the adoption of deep learning in many applications.",
+    "answer": "ImageNet had a transformative impact on deep learning and computer vision. By providing a massive, richly annotated image dataset, it enabled researchers to train deep neural networks—particularly convolutional neural networks (CNNs)—at a scale that was previously impossible. The success of CNNs on ILSVRC tasks, highlighted by breakthroughs such as AlexNet in 2012, revived interest in neural networks and demonstrated their power for visual recognition. This led to widespread adoption of deep learning across many domains beyond computer vision. Additionally, ImageNet’s legacy has spurred discussions about the environmental cost of training large models and the need for more data‑efficient learning methods.",
+    "contexts": [
+      {
+        "page_content": "had\n \na\n \nsignificant\n \nimpact\n \non\n \nthe\n \nfield\n \nof\n \ncomputer\n \nvision,\n \ndemonstrating\n \nthe\n \npower\n \nof\n \ndeep\n \nlearning\n \ntechniques\n \nand\n \nconvolutional\n \nneural\n \nnetworks\n \n(CNNs).\n  Impact  on  Deep  Learning  and  Computer  Vision  ImageNet  and  the  ILSVRC  have  been  instrumental  in  the  resurgence  of  neural  networks,  \nparticularly\n \nCNNs,\n \nin\n \ncomputer\n \nvision.\n \nThe\n \nlarge\n \nvolume\n \nof\n \nannotated\n \nimages\n \nallowed\n \nresearchers\n \nto\n \ntrain\n \ndeep\n \nneural\n \nnetworks,\n \nwhich\n \nrequire\n \nvast\n \namounts\n \nof\n \ndata\n \nto\n \nlearn\n \neffectively.\n \nThe\n \nsuccess\n \nof\n \nthese\n \nnetworks\n \non\n \nILSVRC\n \ntasks\n \nhas\n \nled\n \nto\n \nwidespread\n \nadoption\n \nof\n \ndeep\n \nlearning\n \nacross\n \nvarious\n \ndomains\n \nbeyond\n \ncomputer\n \nvision,\n \nincluding\n \nnatural",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 65
+        }
+      },
+      {
+        "page_content": "Deep  Learning  /  III  AI  &  DS  /  VII  SEM  [EVEN]                                                                   67   Another  challenge  is  the  environmental  impact  of  training  large-scale  models  on  datasets  like  \nImageNet,\n \nas\n \nthe\n \ncomputational\n \nresources\n \nrequired\n \ncan\n \nbe\n \nsubstantial.\n \nAdditionally,\n \nthe\n \nreliance\n \non\n \nlarge\n \ndatasets\n \nhas\n \nraised\n \nquestions\n \nabout\n \nthe\n \nfuture\n \ndirection\n \nof\n \nAI\n \nresearch\n \nand\n \nthe\n \nsearch\n \nfor\n \nmore\n \nefficient\n \nlearning\n \nmethods\n \nthat\n \nrequire\n \nless\n \ndata.\n  Legacy  and  Future  of  ImageNet  ImageNet's  legacy  is  firmly  established  in  the  history  of  artificial  intelligence.  It  has  not  \nonly\n \nadvanced\n \nthe\n \nstate\n \nof\n \nthe\n \nart\n \nin\n \ncomputer\n \nvision\n \nbut\n \nhas\n \nalso",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 66
+        }
+      },
+      {
+        "page_content": "label\n \nthe\n \nprimary\n \nobject\n \nin\n \nan\n \nimage,\n \nand\n \nobject\n \ndetection,\n \nwhere\n \nthe\n \ngoal\n \nwas\n \nto\n \nidentify\n \nand\n \nlocate\n \nall\n \ninstances\n \nof\n \nobjects\n \nwithin\n \nan\n \nimage.\n The  competition  quickly  became  the  gold  standard  for  evaluating  the  performance  of  \nartificial\n \nintelligence\n \nsystems\n \nin\n \nvisual\n \nrecognition\n \ntasks.\n \nBreakthroughs\n \nachieved\n \non\n \nthe\n \nILSVRC,\n \nsuch\n \nas\n \nthe\n \nintroduction\n \nof\n \nAlexNet\n \nin\n \n2012,\n \nhave\n \nhad\n \na\n \nsignificant\n \nimpact\n \non\n \nthe\n \nfield\n \nof\n \ncomputer\n \nvision,\n \ndemonstrating\n \nthe\n \npower\n \nof\n \ndeep\n \nlearning\n \ntechniques\n \nand\n \nconvolutional\n \nneural\n \nnetworks\n \n(CNNs).",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 65
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is WaveNet used for?",
+    "ground_truth": "WaveNet is a neural network model developed by DeepMind for generating audio, including realistic human speech.",
+    "answer": "WaveNet is a generative model for raw audio. It is used to generate audio signals—most notably realistic human speech—by modeling the waveform directly with a feed‑forward neural network.",
+    "contexts": [
+      {
+        "page_content": "Wavenet:\n \nA\n \nGenerative\n \nModel\n \nfor\n \nRaw\n \nAudio\n¹.\n \nIt\n \nexplains\n \nhow\n \nthe\n \nmodel\n \ncan\n \nbe\n \nused\n \nfor\n \ngenerating\n \naudio\n \nsuch\n \nas\n \nrealistic\n \nhuman\n \nspeech.\n \nIt\n \nis\n \na\n \nfeed-forward\n \nneural-net,\n \nmeaning\n \nthe\n \ninformation\n \nonly\n \nmoves\n \nforward\n \nthrough\n \nthe\n \nnetwork,\n \nand\n \ndoes\n \nnot\n \nloop\n \nas\n \nwith\n \nRNNs\n \n(recurrent\n \nneural\n \nnets).\n  Build  Our  Wavenet  First,  we  will  have  our  input  layer.  We  quantize  the  input  layer  values  to  an  8-bit  integer  \nby\n \nMu\n \nlaw\n \ncompanding.\n \nThen\n \nwe\n \nconvert\n \neach\n \ninput\n \ninto\n \na\n \none-hot\n \nvector\n \nembedding,\n \ni.e.,\n \neach\n \ninput\n \nwill\n \nhave\n \n256\n \nvalues\n \nwhere\n \nonly\n \none\n \nvalue\n \nwill\n \nbe\n \nnon-zero.",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 66
+        }
+      },
+      {
+        "page_content": "from\n \nthe\n \nchallenges\n \nof\n \nworking\n \nwith\n \nsuch\n \na\n \nlarge\n \nand\n \ncomplex\n \ndataset\n \ncontinue\n \nto\n \ninform\n \nthe\n \ndevelopment\n \nof\n \nmore\n \nrobust,\n \nfair,\n \nand\n \nefficient\n \nAI\n \nsystems.\n As  the  field  of  AI  progresses,  ImageNet  stands  as  a  testament  to  the  importance  of  \nwell-structured,\n \nlarge-scale\n \ndatasets\n \nin\n \nthe\n \ndevelopment\n \nof\n \nmachine\n \nlearning\n \nmodels\n \nand\n \nthe\n \ntransformative\n \nimpact\n \nthat\n \nsuch\n \nresources\n \ncan\n \nhave\n \non\n \ntechnology\n \nand\n \nsociety.\n  \nAudio  WaveNet  WaveNet  was  developed  by  the  firm  DeepMind  and  presented  in  the  2016  paper  \nWavenet:\n \nA\n \nGenerative\n \nModel\n \nfor\n \nRaw\n \nAudio\n¹.\n \nIt\n \nexplains\n \nhow\n \nthe\n \nmodel\n \ncan\n \nbe\n \nused\n \nfor\n \ngenerating\n \naudio\n \nsuch\n \nas\n \nrealistic\n \nhuman",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 66
+        }
+      },
+      {
+        "page_content": "Deep  Learning  /  III  AI  &  DS  /  VII  SEM  [EVEN]                                                                   24   \n●\n \nTraining  is  time-  and  resource-intensive.  \n \nQ1.  What  is  regularization  in  deep  learning?  A.  Regularization  in  deep  learning  is  a  technique  used  to  prevent  overfitting  and  improve  the  \ngeneralization\n \nof\n \nneural\n \nnetworks.\n \nIt\n \ninvolves\n \nadding\n \na\n \nregularization\n \nterm\n \nto\n \nthe\n \nloss\n \nfunction,\n \nwhich\n \npenalizes\n \nlarge\n \nweights\n \nor\n \ncomplex\n \nmodel\n \narchitectures.\n \nRegularization\n \nmethods\n \nsuch\n \nas\n \nL1\n \nand\n \nL2\n \nregularization,\n \ndropout,\n \nand\n \nbatch\n \nnormalization\n \nhelp\n \ncontrol\n \nmodel\n \ncomplexity\n \nand\n \nimprove\n \nits\n \nability\n \nto\n \ngeneralize\n \nto\n \nunseen\n \ndata.",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 23
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "How does WaveNet generate audio?",
+    "ground_truth": "After training, WaveNet generates audio autoregressively: it receives a seed input and generates each audio sample one by one based on the previous outputs.",
+    "answer": "WaveNet generates audio by feeding a sequence of quantized audio samples into a feed‑forward neural network and predicting the next sample in the sequence. The process works as follows:\n\n1. **Quantization** – Each raw audio sample is first compressed to an 8‑bit integer using Mu‑law companding.  \n2. **Embedding** – The 8‑bit value is then turned into a one‑hot vector (256‑dimensional, with only one element set to 1).  \n3. **Feed‑forward processing** – These one‑hot vectors are passed through the network’s hidden layers (a stack of causal, dilated convolutional layers in the full model).  \n4. **Sample prediction** – The network outputs a probability distribution over the 256 possible next samples, from which the next audio sample is drawn.  \n5. **Iteration** – The newly generated sample is fed back into the network as input, and the process repeats, producing audio sample by sample.\n\nIn this way, WaveNet can generate realistic human speech and other audio by sequentially predicting each sample conditioned on all previous samples.",
+    "contexts": [
+      {
+        "page_content": "Wavenet:\n \nA\n \nGenerative\n \nModel\n \nfor\n \nRaw\n \nAudio\n¹.\n \nIt\n \nexplains\n \nhow\n \nthe\n \nmodel\n \ncan\n \nbe\n \nused\n \nfor\n \ngenerating\n \naudio\n \nsuch\n \nas\n \nrealistic\n \nhuman\n \nspeech.\n \nIt\n \nis\n \na\n \nfeed-forward\n \nneural-net,\n \nmeaning\n \nthe\n \ninformation\n \nonly\n \nmoves\n \nforward\n \nthrough\n \nthe\n \nnetwork,\n \nand\n \ndoes\n \nnot\n \nloop\n \nas\n \nwith\n \nRNNs\n \n(recurrent\n \nneural\n \nnets).\n  Build  Our  Wavenet  First,  we  will  have  our  input  layer.  We  quantize  the  input  layer  values  to  an  8-bit  integer  \nby\n \nMu\n \nlaw\n \ncompanding.\n \nThen\n \nwe\n \nconvert\n \neach\n \ninput\n \ninto\n \na\n \none-hot\n \nvector\n \nembedding,\n \ni.e.,\n \neach\n \ninput\n \nwill\n \nhave\n \n256\n \nvalues\n \nwhere\n \nonly\n \none\n \nvalue\n \nwill\n \nbe\n \nnon-zero.",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 66
+        }
+      },
+      {
+        "page_content": "from\n \nthe\n \nchallenges\n \nof\n \nworking\n \nwith\n \nsuch\n \na\n \nlarge\n \nand\n \ncomplex\n \ndataset\n \ncontinue\n \nto\n \ninform\n \nthe\n \ndevelopment\n \nof\n \nmore\n \nrobust,\n \nfair,\n \nand\n \nefficient\n \nAI\n \nsystems.\n As  the  field  of  AI  progresses,  ImageNet  stands  as  a  testament  to  the  importance  of  \nwell-structured,\n \nlarge-scale\n \ndatasets\n \nin\n \nthe\n \ndevelopment\n \nof\n \nmachine\n \nlearning\n \nmodels\n \nand\n \nthe\n \ntransformative\n \nimpact\n \nthat\n \nsuch\n \nresources\n \ncan\n \nhave\n \non\n \ntechnology\n \nand\n \nsociety.\n  \nAudio  WaveNet  WaveNet  was  developed  by  the  firm  DeepMind  and  presented  in  the  2016  paper  \nWavenet:\n \nA\n \nGenerative\n \nModel\n \nfor\n \nRaw\n \nAudio\n¹.\n \nIt\n \nexplains\n \nhow\n \nthe\n \nmodel\n \ncan\n \nbe\n \nused\n \nfor\n \ngenerating\n \naudio\n \nsuch\n \nas\n \nrealistic\n \nhuman",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 66
+        }
+      },
+      {
+        "page_content": "hidden\n \nlayer.\n \n●\n \nHow  to  use  the  learned  language  model  to  generate  new  text  with  similar  statistical  \nproperties\n \nas\n \nthe\n \nsource\n \ntext.\n Data  Preparation  We  will  start  by  preparing  the  data  for  modeling.  The  first  step  is  to  look  at  the  data.  Review  the  Text  Open  the  text  in  an  editor  and  just  look  at  the  text  data.  For  example,  here  is  the  first  piece  of  dialog:  BOOK  I.  \nDr.  G.  KAVITHA  /  AP  /  CSE",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 59
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is Natural Language Processing (NLP)?",
+    "ground_truth": "Natural Language Processing is a branch of computer science and artificial intelligence concerned with enabling computers to understand text and spoken language. It combines computational linguistics with statistical, machine-learning, and deep-learning methods.",
+    "answer": "Natural Language Processing (NLP) helps computers understand and generate human language.",
+    "contexts": [
+      {
+        "page_content": "speech processing, natural language processing, and generative AI systems.\nNatural Language Processing\nNatural Language Processing (NLP) helps computers understand and generate human language.\nTokenization, embeddings, transformers, and attention mechanisms are important NLP concepts.\nTransformers\nTransformers are deep learning architectures introduced for sequence processing tasks. They use\nself-attention mechanisms to understand relationships between tokens in a sentence.\nEmbeddings\nEmbeddings are dense vector representations of text that capture semantic meaning. Similar meanings\nproduce similar vectors in embedding space.\nVector Databases",
+        "metadata": {
+          "source": "data/pdfs\\rag_practice_document.pdf",
+          "page": 0
+        }
+      },
+      {
+        "page_content": "RAG Practice Document for AI Engineer Learning\nArtificial Intelligence\nArtificial Intelligence (AI) is a field of computer science focused on creating systems capable of\nperforming tasks that normally require human intelligence. Applications include recommendation\nsystems, chatbots, computer vision, and autonomous vehicles.\nMachine Learning\nMachine Learning is a subset of AI where models learn patterns from data instead of being explicitly\nprogrammed. Supervised learning, unsupervised learning, and reinforcement learning are major\ncategories.\nDeep Learning\nDeep Learning uses neural networks with multiple hidden layers. It is widely used in image recognition,\nspeech processing, natural language processing, and generative AI systems.\nNatural Language Processing",
+        "metadata": {
+          "source": "data/pdfs\\rag_practice_document.pdf",
+          "page": 0
+        }
+      },
+      {
+        "page_content": "level.\n \nAt\n \nthat\n \nlevel\n \nwe\n \ncan\n \nuse\n \na\n \nwhole\n \nportfolio\n \nof\n \nsymbolic\n \ninference\n \nalgorithms\n \ndeveloped\n \nover\n \nthe\n \nlast\n \nfew\n \ndecades.\n \nBut\n \nbefore\n \nwe\n \nreach\n \nthis\n \nlevel\n \nwe\n \nneed\n \nto\n \nsolve\n \nthe\n \nsupervised\n \nlearning\n \nproblem\n \nfor\n \nthe\n \nrelatively\n \nnarrow\n \ntask\n \nof\n \nbounding\n \nand\n \ncoloring\n \nobjects.\n \nThis\n \nneeds\n \nannotated\n \ndata\n \nand\n \nknowing\n \nwhat\n \nkind\n \nof\n \ndata\n \nwe\n \nhave\n \nat\n \nour\n \ndisposal\n \nis\n \nan\n \nessential\n \nskill.\n  \n Gathering  Image  Captions.    Image  Captioning  is  the  process  of  generating  textual  description  of  an  image.  It  uses  \nboth \nNatural\n \nLanguage\n \nProcessing\n and \nComputer\n \nVision\n to\n \ngenerate\n \nthe\n \ncaptions.\n \n Dr.  G.  KAVITHA  /  AP  /  CSE",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 71
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What is Word2Vec?",
+    "ground_truth": "Word2Vec is a method for generating word embeddings, where words are represented as numerical vectors. The learned vectors capture characteristics such as semantic relationships and context, allowing similarities and differences between words to be measured.",
+    "answer": "Word2Vec is a recent breakthrough in natural language processing that generates word embeddings—dense vector representations of words. It is a standard method for creating these embeddings, which are used in many NLP tasks such as text similarity, recommendation systems, sentiment analysis, and more.",
+    "contexts": [
+      {
+        "page_content": "Deep  Learning  /  III  AI  &  DS  /  VII  SEM  [EVEN]                                                                   69   \n●\n \nNatural  language  generation is  sometimes  described  as  the  opposite  of  speech  \nrecognition\n \nor\n \nspeech-to-text;\n \nit's\n \nthe\n \ntask\n \nof\n \nputting\n \nstructured\n \ninformation\n \ninto\n \nhuman\n \nlanguage.\n \nWord2Vec  Word2Vec  is  a  recent  breakthrough  in  the  world  of  NLP.  Word  embeddings  are  an  \nintegral\n \npart\n \nof\n \nsolving\n \nmany\n \nproblems\n \nin\n \nNLP.\n \nWord2Vec,\n \na\n \nstandard\n \nmethod\n \nof\n \ngenerating\n \nword\n \nembeddings,\n \nhas\n \na\n \nvariety\n \nof\n \napplications,\n \nsuch\n \nas\n \ntext\n \nsimilarity,\n \nrecommendation\n \nsystems,\n \nsentiment\n \nanalysis,\n \netc.\n \nWord\n \nembeddings\n \nare\n \na\n \ntechnique\n \nwhere\n \nindividual\n \nwords\n \nare",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 68
+        }
+      },
+      {
+        "page_content": "sense\n \nof\n \nwhat\n \nit's\n \ningesting.\n \nSome\n \nof\n \nthese\n \ntasks\n \ninclude\n \nthe\n \nfollowing:\n \n●\n \nSpeech  recognition ,  also  called  speech-to-text,  is  the  task  of  reliably  converting  voice  \ndata\n \ninto\n \ntext\n \ndata.\n \nSpeech\n \nrecognition\n \nis\n \nrequired\n \nfor\n \nany\n \napplication\n \nthat\n \nfollows\n \nvoice\n \ncommands\n \nor\n \nanswers\n \nspoken\n \nquestions.\n \nWhat\n \nmakes\n \nspeech\n \nrecognition\n \nespecially\n \nchallenging\n \nis\n \nthe\n \nway\n \npeople\n \ntalk—quickly,\n \nslurring\n \nwords\n \ntogether,\n \nwith\n \nvarying\n \nemphasis\n \nand\n \nintonation,\n \nin\n \ndifferent\n \naccents,\n \nand\n \noften\n \nusing\n \nincorrect\n \ngrammar.\n \n●\n \nPart  of  speech  tagging ,  also  called  grammatical  tagging,  is  the  process  of  determining  \nthe\n \npart\n \nof\n \nspeech\n \nof\n \na\n \nparticular\n \nword\n \nor",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 67
+        }
+      },
+      {
+        "page_content": "Practice Questions for RAG System\n What is Artificial Intelligence?\n Explain Machine Learning.\n What are embeddings?\n How do vector databases work?\n What is chunking in RAG?\n Explain grounding.\n What are transformers?\n What is Retrieval-Augmented Generation?\n Why are embeddings important in semantic search?\n What is the purpose of overlap in chunking?\nConcept\nPurpose\nChunking\nSplit documents into smaller searchable parts\nOverlap\nPreserve continuity between chunks\nEmbeddings\nConvert text into semantic vectors\nVector DB\nStore and search vectors efficiently\nGrounding\nGenerate answers using retrieved context",
+        "metadata": {
+          "source": "data/pdfs\\rag_practice_document.pdf",
+          "page": 2
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What are the two main methods used by Word2Vec?",
+    "ground_truth": "The two methods used by Word2Vec are Skip Gram and Continuous Bag of Words (CBOW).",
+    "answer": "I don't know based on the provided documents.",
+    "contexts": [
+      {
+        "page_content": "Deep  Learning  /  III  AI  &  DS  /  VII  SEM  [EVEN]                                                                   69   \n●\n \nNatural  language  generation is  sometimes  described  as  the  opposite  of  speech  \nrecognition\n \nor\n \nspeech-to-text;\n \nit's\n \nthe\n \ntask\n \nof\n \nputting\n \nstructured\n \ninformation\n \ninto\n \nhuman\n \nlanguage.\n \nWord2Vec  Word2Vec  is  a  recent  breakthrough  in  the  world  of  NLP.  Word  embeddings  are  an  \nintegral\n \npart\n \nof\n \nsolving\n \nmany\n \nproblems\n \nin\n \nNLP.\n \nWord2Vec,\n \na\n \nstandard\n \nmethod\n \nof\n \ngenerating\n \nword\n \nembeddings,\n \nhas\n \na\n \nvariety\n \nof\n \napplications,\n \nsuch\n \nas\n \ntext\n \nsimilarity,\n \nrecommendation\n \nsystems,\n \nsentiment\n \nanalysis,\n \netc.\n \nWord\n \nembeddings\n \nare\n \na\n \ntechnique\n \nwhere\n \nindividual\n \nwords\n \nare",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 68
+        }
+      },
+      {
+        "page_content": "the\n \nchances\n \nof\n \noverfitting.\n \nRegularization\n \nis\n \na\n \ntechnique\n \nused\n \nin\n \nmachine\n \nlearning\n \nand\n \ndeep\n \nlearning\n \nto\n \nprevent\n \noverfitting\n \nand\n \nimprove\n \nthe\n \ngeneralization\n \nperformance\n \nof\n \na\n \nmodel.\n \nIt\n \ninvolves\n \nadding\n \na\n \npenalty\n \nterm\n \nto\n \nthe\n \nloss\n \nfunction\n \nduring\n \ntraining.\n \nBy\n \napplying\n \nregularization,\n \nmodels\n \nbecome\n \nmore\n \nrobust\n \nand\n \nbetter\n \nat\n \nmaking\n \naccurate\n \npredictions\n \non\n \nunseen\n \ndata.\n Coming  to  practical  uses  of  Regularization,  there  are  two  most  common  Regularization  \nmethods\n \nused\n \nfor\n \nNeural\n \nNetworks,\n \nL-2\n \nRegularization\n \nand\n \nDropout\n \nRegularization\n \n(The\n \nlatter\n \nbeing\n \nless\n \ncommon).\n \nBoth\n \nthese\n \nmethods\n \nwork\n \nreally\n \nwell\n \nand\n \nproves\n \nthat\n \nyou\n \ncan",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 21
+        }
+      },
+      {
+        "page_content": "is\n \nin\n \nstate\n \n(s)\n \nand\n \ntakes\n \naction\n \n(a),\n \nand\n \nthen\n \nplays\n \nuntil\n \nthe\n \nend\n \nof\n \nthe\n \nepisode\n \naccording\n \nto\n \nsome\n \npolicy\n \n(π).\n \n There  are  two  main  types  of  Reinforcement  Learning  algorithms:  1. Model-based  algorithms  2. Model-free  algorithms  \nDr.  G.  KAVITHA  /  AP  /  CSE",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 62
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What metric is used to evaluate joint detection in the rheumatoid arthritis bioinformatics case study?",
+    "ground_truth": "Intersection over Union (IoU) is used to evaluate the performance of joint detection by measuring the overlap between the predicted output and the ground-truth mask.",
+    "answer": "The joint detection performance was evaluated using the **Intersection over Union (IOU)** metric.",
+    "contexts": [
+      {
+        "page_content": "Deep  Learning  /  III  AI  &  DS  /  VII  SEM  [EVEN]                                                                   70   Let’s  get  the  terms  in  the  picture  right:  -  Wvn  is  the  weight  matrix  that  maps  the  input  x  to  the  hidden  layer  (V*N  dimensional  matrix)  \n-\nW`nv\n \nis\n \nthe\n \nweight\n \nmatrix\n \nthat\n \nmaps\n \nthe\n \nhidden\n \nlayer\n \noutputs\n \nto\n \nthe\n \nfinal\n \noutput\n \nlayer\n \n(N*V\n \ndimensional\n \nmatrix)\n Joint  Detection  Bioinformatics   Rheumatoid  arthritis  (RA)  is  an  autoimmune  disease  that  affects  multiple  small  and  large  \njoints\n \nleading\n \nto\n \njoint\n \ndamage.\n \nThe\n \nearliest\n \nfindings\n \nare\n \nusually\n \nfound\n \nin\n \nthe\n \nproximal\n \ninterphalangeal\n \n(PIP)\n \njoints\n \nand\n \nmetacarpophalangeal\n \n(MCP)\n \nof\n \nthe\n \nhands,\n \nthe\n \nwrists,",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 69
+        }
+      },
+      {
+        "page_content": "Deep  Learning  /  III  AI  &  DS  /  VII  SEM  [EVEN]                                                                   71   We  used  the  intersection  over  union  (IOU)  metric  to  evaluate  the  performance  of  the  joint  \ndetection.\n \nIOU\n \nis\n \na\n \nmethod\n \nthat\n \nlooks\n \nat\n \nthe\n \noverlapping\n \narea\n \nof\n \nthe\n \npredicted\n \noutput\n \nand\n \nthe\n \nground\n \ntruth\n \nmask. \n Face  recognition  Face  recognition  is  a  method  of  identifying  or  verifying  the  identity  of  an  individual  \nusing\n \ntheir\n \nface.\n \nIt\n \nis\n \none\n \nof\n \nthe\n \nmost\n \nimportant\n \ncomputer\n \nvision\n \napplications\n \nwith\n \ngreat\n \ncommercial\n \ninterest.\n \nHence,\n \nstatic\n \nor\n \nreal-time\n \nface\n \nrecognition\n \nare\n \namong\n \nthe\n \nmost\n \nwidely\n \nstudied\n \ntopics\n \nin\n \ncomputer\n \nvision.\n \nThere\n \nis",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 70
+        }
+      },
+      {
+        "page_content": "which\n \nis\n \nmanifested\n \nas\n \njoint\n \nspace\n \nnarrowing\n \nand\n \nerosion. Some\n \ntechnological\n \nadvancement\n \nhas\n \naddressed\n \nthese\n \nchallenges\n \nby\n \nutilizing\n \ndeep\n \nlearning\n \nto\n \nassess\n \nthe\n \njoint\n \ndamage\n \ndirectly.\n \n A  deep  multi-task  method  that  predicts  joint  space  narrowing  and  erosion  scores  using  a  \ndeep\n \nconvolutional\n \nneural\n \nnetwork.\n \nThe\n \njoint\n \ndetection\n \nstep\n \nuses\n \na\n \nmachine\n \nlearning\n \nalgorithm\n \nthat\n \nuses\n \nHaar-like\n \nfeatures\n \nto\n \ndetect\n \nthe\n \njoints.\n \nThe\n \njoint\n \nevaluation\n \nstep\n \nuses\n \na\n \nconvolutional\n \nneural\n \nnetwork\n \nto\n \nassign\n \nscores\n \nto\n \nthe\n \njoints.\n \n  \n  In  order  to  detect  each  joint,  we  first  used  trained  and  developed  model  [YOLOv5l6]  to  \ntrain\n \non\n \nthe\n \ndataset\n \nto",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 69
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "How does the image captioning architecture work?",
+    "ground_truth": "The architecture uses a CNN as an encoder to extract features from the input image and an RNN as a decoder to generate the caption word by word. During testing, the decoder's output at one time step is fed back as the input for the next time step until the END token is generated.",
+    "answer": "The image‑captioning architecture is built on two main components that work together:\n\n1. **Computer‑Vision part** – A deep neural network (for example, a ResNet‑style architecture) processes the image and extracts visual features. These features capture the objects, scenes, and other visual cues that will be described in the caption.\n\n2. **Natural‑Language part** – The extracted visual features are fed into a language model (often a deep network such as an RNN or transformer) that generates a textual description. This part uses NLP techniques to produce fluent, grammatically correct sentences that describe the image content.\n\nIn short, the system first uses a deep vision model to understand the image, then a deep language model to turn that understanding into a natural‑language caption.",
+    "contexts": [
+      {
+        "page_content": "level.\n \nAt\n \nthat\n \nlevel\n \nwe\n \ncan\n \nuse\n \na\n \nwhole\n \nportfolio\n \nof\n \nsymbolic\n \ninference\n \nalgorithms\n \ndeveloped\n \nover\n \nthe\n \nlast\n \nfew\n \ndecades.\n \nBut\n \nbefore\n \nwe\n \nreach\n \nthis\n \nlevel\n \nwe\n \nneed\n \nto\n \nsolve\n \nthe\n \nsupervised\n \nlearning\n \nproblem\n \nfor\n \nthe\n \nrelatively\n \nnarrow\n \ntask\n \nof\n \nbounding\n \nand\n \ncoloring\n \nobjects.\n \nThis\n \nneeds\n \nannotated\n \ndata\n \nand\n \nknowing\n \nwhat\n \nkind\n \nof\n \ndata\n \nwe\n \nhave\n \nat\n \nour\n \ndisposal\n \nis\n \nan\n \nessential\n \nskill.\n  \n Gathering  Image  Captions.    Image  Captioning  is  the  process  of  generating  textual  description  of  an  image.  It  uses  \nboth \nNatural\n \nLanguage\n \nProcessing\n and \nComputer\n \nVision\n to\n \ngenerate\n \nthe\n \ncaptions.\n \n Dr.  G.  KAVITHA  /  AP  /  CSE",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 71
+        }
+      },
+      {
+        "page_content": "to\n \ncapture\n \nthe\n \ncomplexity\n \nof\n \nthe\n \nproblem\n \nat\n \nhand.\n \nIt's\n \nlike\n \ntrying\n \nto\n \nunderstand\n \na\n \ncomplex\n \nbook\n \nby\n \njust\n \nreading\n \nthe\n \nsummary\n \non\n \nthe\n \nback\n \ncover.\n A  shallow  network  might  be  used  for  simple  tasks  like  image  classification,  while  a  deep  \nnetwork\n \nmight\n \nbe\n \nused\n \nfor\n \nmore\n \ncomplex\n \ntasks\n \nlike\n \nimage\n \nsegmentation\n \nor\n \nnatural\n \nlanguage\n \nprocessing.\n \nFor\n \ninstance,\n \na\n \nshallow\n \nneural\n \nnetwork\n \nwith\n \na\n \nsingle\n \nhidden\n \nlayer\n \ncan\n \nbe\n \nused\n \nto\n \nrecognize\n \nhandwritten\n \ndigits\n \nfrom\n \nthe\n \nMNIST\n \ndataset.\n \nBut\n \nfor\n \na\n \nmore\n \ncomplex\n \ntask\n \nlike\n \nidentifying\n \ndifferent\n \nobjects\n \nin\n \nan\n \nimage,\n \na\n \ndeep\n \nneural\n \nnetwork\n \nlike\n \nthe\n \npopular\n \nResNet\n \narchitecture\n \nmight\n \nbe",
+        "metadata": {
+          "source": "data/pdfs\\DEEP LEARNING 5 Unit Notes.docx.pdf",
+          "page": 25
+        }
+      },
+      {
+        "page_content": "Practice Questions for RAG System\n What is Artificial Intelligence?\n Explain Machine Learning.\n What are embeddings?\n How do vector databases work?\n What is chunking in RAG?\n Explain grounding.\n What are transformers?\n What is Retrieval-Augmented Generation?\n Why are embeddings important in semantic search?\n What is the purpose of overlap in chunking?\nConcept\nPurpose\nChunking\nSplit documents into smaller searchable parts\nOverlap\nPreserve continuity between chunks\nEmbeddings\nConvert text into semantic vectors\nVector DB\nStore and search vectors efficiently\nGrounding\nGenerate answers using retrieved context",
+        "metadata": {
+          "source": "data/pdfs\\rag_practice_document.pdf",
+          "page": 2
+        }
+      }
+    ]
+  }
+]
